@@ -5,8 +5,7 @@
 
 
 ```
-
-  Select *
+Select *
 From Employees
 
 ```
