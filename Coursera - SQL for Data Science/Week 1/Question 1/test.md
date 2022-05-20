@@ -5,11 +5,7 @@
 
 
 ```SQL
-<pre>
-<b>Select *
-<b>From Employees
-
-<pre>
-
+Select *
+From Employees
 ```
 
