@@ -8,3 +8,7 @@ Retrieve all the records from the Employees table.
 
 Select *
 From Employees
+
+
+
+"* [](https://github.com/mhsharifani/SQL-practices/blob/main/Coursera%20-%20SQL%20for%20Data%20Science/Week%201/Question%201/Screenshot%20(398).png)*\n",
