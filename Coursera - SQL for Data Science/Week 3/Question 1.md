@@ -1,2 +1,2 @@
+![Module-3-Coding-Assignment-Coursera (3)](https://user-images.githubusercontent.com/79485961/171995789-a106bc32-bf9c-4287-9ece-96e5ddb7f51d.png)
 
-![Module-3-Coding-Assignment-Coursera](https://user-images.githubusercontent.com/79485961/171995574-c56a1bdb-091d-48d5-8904-2633f11e1ace.png)
