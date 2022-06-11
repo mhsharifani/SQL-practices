@@ -4,4 +4,13 @@
 
 ```SQL
 
+Select TrackId
+        , Name
+        , Albums.AlbumId
+        , Title
+        , ArtistId
+    From Albums Left Join Tracks on Albums.AlbumId = Tracks.AlbumId
+
+    where Title = "For Those About To Rock We Salute You" ;
+
 ```
