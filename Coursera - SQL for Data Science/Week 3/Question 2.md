@@ -4,4 +4,14 @@
 
 ```SQL
 
+Select Customers.CustomerId
+        , FirstName
+        , LastName
+        , City
+        , email
+        , count(InvoiceId) As Total_Invoices
+From Customers Left Join Invoices 
+on Customers.CustomerId = Invoices.CustomerId
+group by Customers.CustomerId;
+
 ```
