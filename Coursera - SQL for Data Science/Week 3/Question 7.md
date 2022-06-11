@@ -3,5 +3,12 @@
 ***Answer:***
 
 ```SQL
+select customers.customerId
+        , Lastname
+        , city
+        , BillingCity
+From customers left join invoices
+on customers.customerId = invoices.customerId
+where city != BillingCity;
 
 ```
