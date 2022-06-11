@@ -4,4 +4,13 @@
 
 ```SQL
 
+Select Artists.ArtistId
+        , Name
+        , AlbumId
+        , title
+
+From Artists left join Albums
+on Artists.ArtistId = Albums.ArtistId
+where AlbumId is null
+
 ```
