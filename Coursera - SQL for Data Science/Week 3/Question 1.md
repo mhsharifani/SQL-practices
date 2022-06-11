@@ -4,4 +4,13 @@
 
 ```SQL
 
+select trackid
+        , name
+        , Albumid
+
+From Tracks
+where Albumid IN (select Albumid
+        From Albums
+        Where Title = "Californication");
+
 ```
