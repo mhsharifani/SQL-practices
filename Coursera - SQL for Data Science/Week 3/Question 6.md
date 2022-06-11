@@ -3,5 +3,16 @@
 ***Answer:***
 
 ```SQL
+Select FirstName
+        , Lastname
+From Employees
+
+Union 
+
+Select FirstName
+        , Lastname
+From Customers
+
+Order by Lastname DESC;
 
 ```
