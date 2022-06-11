@@ -4,4 +4,14 @@
 
 ```SQL
 
+Select   M.EmployeeId as MangerId
+        , M.LastName as M_Lastname
+        , E.ReportsTo as EM
+        ,  E.LastName as E_Lastname
+        , E.EmployeeId As EI
+    
+
+From Employees M Inner Join Employees E
+on M.EmployeeId = E.ReportsTo
+
 ```
